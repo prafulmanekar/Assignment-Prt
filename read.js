@@ -1,9 +1,9 @@
 function result() {
     let eng = document.querySelector("#Eng").value;
     let mt = document.querySelector("#mt").value;
-    let phy = document.querySelector("phy").value;
-    let che = document.querySelector("che").value;
-    let com = document.querySelector("com").value;
+    let phy = document.querySelector("#phy").value;
+    let che = document.querySelector("#che").value;
+    let com = document.querySelector("#com").value;
 
     let to = parseFloat(eng) + parseFloat(mt) + parseFloat(phy) + parseFloat(che) + parseFloat(com);
     let ave = (to * 100) / 500;
